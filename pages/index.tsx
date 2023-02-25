@@ -37,7 +37,12 @@ export default function Home() {
             </Col>
           </Row>
           <Row>
-            <Col style={{ textAlign: 'center', backgroundColor: '#364d79' }}>
+            <Col>
+            <h1 style={carouselStyle}>
+              This is test
+            </h1>
+            </Col>
+            <Col style={{ textAlign: 'center', backgroundColor: '#364d79', display: 'none' }}>
               <Image
                 src={p1Img}
                 alt="Picture of the author"
